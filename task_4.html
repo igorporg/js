@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Задание 4</title>
+</head>
+<body>
+<script>
+// Задание 
+/* 4. Реализовать основные 4 арифметические операции (+, -, /, *) в виде функций с двумя параметрами. Т.е. например, функция для сложения должна принимать два числа, складывать их и возвращать результат.
+Обязательно использовать оператор return. */
+    
+'use strict';    
+    
+function math_sum(a, b){
+   return a + b;
+} 
+    
+function math_sub(a, b){
+   return a - b;
+}  
+    
+function math_mult(a, b){
+   return a * b;
+}  
+    
+function math_div(a, b){
+   return a / b;
+}      
+    
+let a = Number(prompt("Введите первое число:")); 
+let b = Number(prompt("Введите второе число:"));    
+
+alert("Сумма чисел a + b = " + math_sum(a, b));    
+alert("Разность чисел a - b = " + math_sub(a, b));
+alert("Произведение чисел a * b = " + math_mult(a, b));
+alert("Деление чисел a / b = " + math_div(a, b)); 
+
+</script>
+
+</body>
+</html>
